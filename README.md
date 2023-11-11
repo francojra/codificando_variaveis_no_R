@@ -1,2 +1,5 @@
-# codificando_variaveis_no_R
-O script mostra como transformar em fator variáveis que estejam no banco de dados como números, como indicar variáveis ordinais e como estabelecer um valor correspondente a um valor ausente.
+# Codificando variavéis no R
+
+### Autoria do script: Jeanne Franco 
+### Data: 10/11/23 
+### Referência: https://www.youtube.com/watch?v=0afvtQyTxjc
