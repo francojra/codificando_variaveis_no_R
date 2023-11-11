@@ -50,3 +50,7 @@ dados$Grau_de_Instrucao <- factor(dados$Grau_de_Instrucao,
                                   levels = 0:2, order = T)
 ##### O argumento 'order' é importante para definir a variável como categórica
 ##### ordinal, ou seja, que existe uma ordem na variável.
+
+### Codificando valores ausentes (missing values)
+
+dados[dados == -999] <- NA
