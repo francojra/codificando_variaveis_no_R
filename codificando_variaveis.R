@@ -44,3 +44,9 @@ glimpse(dados) # Mostra todas as variávies como números inteiros
 dados$Genero <- factor(dados$Genero, levels = c(0,1), labels = c("M", "F"))
 
 ### Codificando a variável grau de instrução de inteiro para categórico (fator)
+
+dados$Grau_de_Instrucao <- factor(dados$Grau_de_Instrucao,
+                                  labels = c("Fundamental", "Médio", "Superior"),
+                                  levels = 0:2, order = T)
+##### O argumento 'order' é importante para definir a variável como categórica
+##### ordinal.
