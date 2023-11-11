@@ -42,3 +42,5 @@ glimpse(dados) # Mostra todas as variávies como números inteiros
 ### Codificando a variável gênero de inteiro para categórico (fator)
 
 dados$Genero <- factor(dados$Genero, levels = c(0,1), labels = c("M", "F"))
+
+### Codificando a variável grau de instrução de inteiro para categórico (fator)
