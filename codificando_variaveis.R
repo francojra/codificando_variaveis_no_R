@@ -30,4 +30,9 @@ library(dplyr)
 
 # Carregar dados ---------------------------------------------------------------------------------------------------------------------------
 
+dados <- read.csv('Banco de Dados 2 Codificado.csv', sep = ';', dec = ',', check.names = F)
 
+# Visualizando o banco de dados ------------------------------------------------------------------------------------------------------------
+
+View(dados)
+glimpse(dados)
