@@ -35,4 +35,10 @@ dados <- read.csv('Banco de Dados 2 Codificado.csv', sep = ';', dec = ',', check
 # Visualizando o banco de dados ------------------------------------------------------------------------------------------------------------
 
 View(dados)
-glimpse(dados)
+glimpse(dados) # Mostra todas as variávies como números inteiros
+
+# Ajustando as variáveis -------------------------------------------------------------------------------------------------------------------
+
+### Codificando a variável gênero de inteiro para categórico (fator)
+
+dados$Genero <- factor(dados$Genero, levels = c(0,1), labels = c("M", "F"))
