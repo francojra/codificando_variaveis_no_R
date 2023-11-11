@@ -11,7 +11,7 @@
 3. Pacotes;
 4. Carregar dados
 5. Visualizando o banco de dados
-6. Ajustando as variáveis
+6. Ajustando as variáveis:
 - Codificando a variável gênero de inteiro para categórico (fator);
 - Codificando a variável grau de instrução de inteiro para categórico (fator);
 - Codificando valores ausentes (missing values).
