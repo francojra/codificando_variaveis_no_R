@@ -46,7 +46,7 @@ dados$Genero <- factor(dados$Genero, levels = c(0,1), labels = c("M", "F"))
 ### Codificando a variável grau de instrução de inteiro para categórico (fator)
 
 dados$Grau_de_Instrucao <- factor(dados$Grau_de_Instrucao,
-                                  labels = c("Fundamental", "Médio", "Superior"),
+                                  labels = c("Fundamental", "Medio", "Superior"),
                                   levels = 0:2, order = T)
 ##### O argumento 'order' é importante para definir a variável como categórica
-##### ordinal.
+##### ordinal, ou seja, que existe uma ordem na variável.
